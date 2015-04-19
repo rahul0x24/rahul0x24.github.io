@@ -16,6 +16,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 a{
 	color:#ffffff!important;
 }
+
  a:hover{
 	color:#cccccc!important;
 	 text-decoration: none;
@@ -152,6 +153,10 @@ a{
 #nav-bloc,#about-bloc,#bloc-4,#bloc-6,#bloc-8,#bloc-10{
 	background-color:#ffffff;
 }
+#hero-bloc h1{
+	font-size: 50px;
+	text-shadow: rgba(0, 0, 0, 0.498039) 0px 2px 5px;
+}
 
 /* Bloc image backgrounds */
 
@@ -178,6 +183,9 @@ a{
 }
 .bg-camera-overlay{
 	background-image:url("img/camera-overlay.png");
+}
+.bg-background{
+	background-image:url('img/background.png');
 }
 
 /* NavBar */
