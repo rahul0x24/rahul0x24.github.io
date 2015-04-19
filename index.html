@@ -8,18 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
     <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
-    <link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='./css/animate.css' /><link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <script src="./js/jquery-2.1.0.min.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/blocs.js"></script>
-    <title>index - Rahul Katariya - iOS And Mac Developer</title>
+    <title>index - </title>
 </head>
 <body>
 <!-- Main container -->
 <div class="page-container">
     <!-- Hero Bloc --><div id="hero-bloc" class="bloc hero b-parallax bgc-1 bg-background d-bloc">
-	<div class="container hero-nav bloc-sm">
+	<div class="container bloc-sm hero-nav">
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html">Rahul Katariya</a>
@@ -30,13 +30,19 @@
 			<div class="collapse navbar-collapse navbar-1">
 				<ul class="site-navigation nav pull-right">
 					<li>
-						<a id="pl-undefined" onclick="scrollToTarget('#about-bloc')" href="#">About</a>
+						<a id="pl-undefined" onclick="scrollToTarget('#about-bloc')">About</a>
 					</li>
 					<li>
-						<a id="pl-undefined" onclick="scrollToTarget('#portfolio-bloc')" href="#">Portfolio</a>
+						<a id="pl-undefined" onclick="scrollToTarget('#portfolio-bloc')">Portfolio</a>
 					</li>
 					<li>
-						<a id="pl-undefined" onclick="scrollToTarget('#contact-bloc')" href="#">Contact</a>
+						<a id="pl-undefined" onclick="scrollToTarget('#contact-bloc')">Contact</a>
+					</li>
+					<li>
+						<a id="pl-undefined" onclick="scrollToTarget('#workex-bloc')">Work Experience</a>
+					</li>
+					<li>
+						<a id="pl-undefined" onclick="scrollToTarget('#skills-bloc')" class="pull-left">Skills</a>
 					</li>
 				</ul>
 			</div>
@@ -44,7 +50,7 @@
 	</div>
 	<div class="v-center text-center">
 		<div class="vc-content">
-			<h1 class=" mg-sm">
+			<h1 class=" pulse mg-clear animated">
 				iOS And Mac Developer
 			</h1><br /><br /><br /><a id="scroll-hero" class="btn-dwn" href="#"><span class="fa fa-chevron-down"></span></a>
 		</div>
@@ -53,62 +59,100 @@
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-6">
-				<p class="mg-lg">
-					Rahul is a Mobile Consultant with strong skill set in iOS Development. He has 2 years of professional experience in Web and Mobile Technologies. He has good understanding of Object Oriented Design and Design Patterns including Model View Controller (MVC), Target-Action, Delegate Pattern, Singleton and so on. He has a good understanding of Agile methodologies like Test Driven Development (TDD).<br /><br />He has good understanding of iOS Technologies including Foundation, UIKit, CoreData, iCloud, Concurrency, Blocks, Locations and Maps, Networking, Bluetooth, Local and Remote Notifications, Static Libraries, Frameworks, Instruments, Xcode Server CI and so on.
-				</p>
-				<div class="text-center">
-					<a href="https://www.dropbox.com/s/n6rif109nirj3yf/Rahul%20Katariya%20Resume.docx?dl=0" class="btn   wire-btn-c-1 btn-wire" target="_blank">Download Resume</a>
-				</div>
+				<p class="mg-lg animated">
+					Rahul is a Mobile Consultant with strong skill set in iOS Development.<br /><br />He has 2 years of professional experience in Web and Mobile Technologies. He has good understanding of Object Oriented Design and Design Patterns including Model View Controller (MVC), Model View ViewModel (MVVM), Target-Action, Delegate Pattern, Singleton and so on. He has a good understanding of Agile methodologies like Test Driven Development (TDD).<br /><br />He has good understanding of iOS Technologies including Foundation, UIKit, CoreData, iCloud, Concurrency, Blocks, Locations and Maps, Networking, Bluetooth, Local and Remote Notifications, Static Libraries, Frameworks, Instruments, Xcode Server CI and so on.<br /><br />He has also worked in Web Technologies like HTML5/CSS3, Twitter Bootstrap, LESS, SASS &amp; Compass, Javascript, AngularJS.<br /><br />He is a focused, dedicated and self-motivated person with good communication, presentation, consulting and organizational skills.
+				</p><a href="https://www.dropbox.com/s/n6rif109nirj3yf/Rahul%20Katariya%20Resume.docx?dl=0" class="btn   btn-wire btn-sq fadeIn animated wire-btn-c-1" target="_blank">Download Resume</a>
 			</div>
 			<div class="col-sm-6">
-				<img src="img/Dp-339x339.png" class="img-circle center-block mg-sm" width="339" height="339" alt='' />
+				<img src="img/Dp-339x339.png" class="img-circle center-block" height="339" alt='' />
 			</div>
 		</div>
 	</div>
-</div><!-- about-bloc END --><!-- portfolio-bloc --><div class="bloc b-parallax bg-city-overlay  d-bloc" id="portfolio-bloc">
+</div><!-- about-bloc END --><!-- skills-bloc --><div class="bloc b-parallax  bg-camera-overlay d-bloc" id="skills-bloc">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center  mg-md">
+				<h1 class="text-center  mg-clear">
+					Skills
+				</h1>
+			</div>
+		</div>
+	</div>
+</div><!-- skills-bloc END --><!-- bloc-4 --><div class="bloc l-bloc " id="bloc-4">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="fadeIn animated">
+					<strong>Frontend Technologies:</strong> C, Objective-C, Swift, HTML5/CSS3, SASS, Javascript<br /><br /><strong>Backend Technologies:</strong> Core Data, Parse<br /><br /><strong>Frameworks:</strong><br /><strong>iOS:</strong> RestKit, ReactiveCocoa, Alamofire, Parse, MBProgressHUD, Mogenerator, CocoaLumberjack, Estimote-iOSSDK, AFNetworking and many more<br /><strong>Web:</strong> Twitter Bootstrap for HTML5/CSS3, AngularJS for Javascript, Compass for SASS.<br /><br /><strong>Dependency Manager:</strong><br /><strong>iOS:</strong> Cocoapods, Carthage<br /><strong>Web:</strong> Bower, NPM<br /><br /><strong>Tools:</strong> Xcode, Git, JIRA, Photoshop, SketchApp<br /><br /><strong>Build Tools:</strong><br />iOS: Apple Server, Jenkins<br />Web: Grunt, Yeoman
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-4 END --><!-- workex-bloc --><div class="bloc b-parallax bg-path-overlay  d-bloc" id="workex-bloc">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="text-center mg-clear ">
+					Work Experience
+				</h1>
+			</div>
+		</div>
+	</div>
+</div><!-- workex-bloc END --><!-- bloc-6 --><div class="bloc l-bloc " id="bloc-6">
+	<div class="container bloc-lg">
+		<div class="row fadeIn animated">
+			<div class="col-sm-6">
+				<img src="img/logo.png" class="img-responsive center-block" alt='' />
+			</div>
+			<div class="col-sm-6">
+				<img src="img/logo.jpg" class="center-block" height="40" alt='' />
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-6 END --><!-- portfolio-bloc --><div class="bloc b-parallax bg-city-overlay  d-bloc" id="portfolio-bloc">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="text-center  mg-clear">
 					Portfolio
 				</h1>
 			</div>
 		</div>
 	</div>
-</div><!-- portfolio-bloc END --><!-- bloc-4 --><div class="bloc l-bloc " id="bloc-4">
+</div><!-- portfolio-bloc END --><!-- bloc-8 --><div class="bloc l-bloc " id="bloc-8">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-3">
-				<img src="img/Montcalm.png" class="img-responsive mg-md center-block" alt='' /><img src="img/DRA.png" class="img-responsive center-block mg-md" alt='' />
+				<img src="img/Montcalm.png" class="img-responsive mg-md" alt='' /><img src="img/DRA.png" class="img-responsive" alt='' />
 			</div>
 			<div class="col-sm-3">
-				<img src="img/TBNEurope.png" class="img-responsive mg-md center-block" alt='' /><img src="img/XebiaCaller.png" class="img-responsive center-block mg-md" alt='' />
+				<img src="img/TBNEurope.png" class="img-responsive mg-md" alt='' /><img src="img/XebiaCaller.png" class="img-responsive" alt='' />
 			</div>
 			<div class="col-sm-3">
-				<img src="img/VNU.png" class="img-responsive mg-md center-block" alt='' /><img src="img/SIMN.png" class="img-responsive center-block mg-md" alt='' />
+				<img src="img/VNU.png" class="img-responsive mg-md" alt='' /><img src="img/SIMN.png" class="img-responsive" alt='' />
 			</div>
 			<div class="col-sm-3">
-				<img src="img/Sydney.png" class="img-responsive mg-md center-block" alt='' /><img src="img/Clear-T&amp;M.png" class="img-responsive mg-md center-block" alt='' />
+				<img src="img/Sydney.png" class="img-responsive mg-md" alt='' /><img src="img/Clear-T&amp;M.png" class="img-responsive" alt='' />
 			</div>
 		</div>
 	</div>
-</div><!-- bloc-4 END --><!-- contact-bloc --><div class="bloc b-parallax bg-map-overlay  d-bloc" id="contact-bloc">
+</div><!-- bloc-8 END --><!-- contact-bloc --><div class="bloc b-parallax bg-map-overlay  d-bloc" id="contact-bloc">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="mg-md text-center ">
+				<h1 class="text-center  mg-clear">
 					Contact
 				</h1>
 			</div>
 		</div>
 	</div>
-</div><!-- contact-bloc END --><!-- bloc-6 --><div class="bloc l-bloc " id="bloc-6">
+</div><!-- contact-bloc END --><!-- bloc-10 --><div class="bloc l-bloc " id="bloc-10">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-6">
 				<p>
 					<strong>Address:</strong> GH4/231, Meera Apartments, Paschim Vihar, New Delhi - 63<br /><strong>Email:</strong> rahulkatariya@me.com<br /><strong>Mobile:</strong> +91 9899-155-309<br /><strong>Skype:</strong> rahul.katariya91
-				</p><img src="img/Location-570x300.png" class="img-responsive mg-md" alt='' />
+				</p><img src="img/Location-570x300.png" class="img-responsive" alt='' />
 			</div>
 			<div class="col-sm-6">
 				<div class="form-group">
@@ -135,12 +179,12 @@
 					</label>
 					<textarea class="form-control" rows="4" cols="50">
 					</textarea>
-				</div><a href="index.html" class="btn wire-btn-c-1 btn-wire">Send</a>
+				</div><a href="index.html" class="btn btn-wire btn-sq wire-btn-c-1">Send</a>
 			</div>
 		</div>
 	</div>
-</div><!-- bloc-6 END --><!-- socialshare-bloc --><div class="bloc  d-bloc" id="socialshare-bloc">
-	<div class="container bloc-lg">
+</div><!-- bloc-10 END --><!-- socialshare-bloc --><div class="bloc  d-bloc" id="socialshare-bloc">
+	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 col-md-8 col-md-offset-2">
 				<div class="col-sm-3 text-center">
@@ -158,32 +202,7 @@
 			</div>
 		</div>
 	</div>
-</div><!-- socialshare-bloc END --><!-- Footer - bloc-8 --><div class="bloc  d-bloc" id="bloc-8">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-3">
-				<h3>
-					About
-				</h3><a href="index.html" class="a-btn a-block">The team</a><a href="index.html" class="a-btn a-block">Contact us</a>
-			</div>
-			<div class="col-sm-3">
-				<h3>
-					Get the App
-				</h3><a href="index.html" class="a-btn a-block">iPhone</a><a href="index.html" class="a-btn a-block">Android</a>
-			</div>
-			<div class="col-sm-3">
-				<h3>
-					Follow us
-				</h3><a href="index.html" class="a-btn a-block">Twitter</a><a href="index.html" class="a-btn a-block">Facebook</a>
-			</div>
-			<div class="col-sm-3">
-				<h3>
-					Company
-				</h3><a href="index.html" class="a-btn a-block">Terms of use</a><a href="index.html" class="a-btn a-block">Privacy</a>
-			</div>
-		</div>
-	</div>
-</div><!-- Footer - bloc-8 END -->
+</div><!-- socialshare-bloc END -->
 </div>
 <!-- Main container END -->
 
