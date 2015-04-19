@@ -39,7 +39,7 @@ a{
 /* Site container width */
 
 .container{
-	width:100%;
+	max-width:1170px;
 }
 
 /* Blocs */
