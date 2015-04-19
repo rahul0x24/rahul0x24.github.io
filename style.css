@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    Rahul Katariya | iOS and Mac Developer
+/*	    Rahul Katariya  iOS And Mac Developer
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
 
@@ -16,7 +16,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 a{
 	color:#ffffff!important;
 }
-
  a:hover{
 	color:#cccccc!important;
 	 text-decoration: none;
@@ -26,15 +25,21 @@ a{
 
 
 /* Globals type styling */
- h1, h2, h3, h4, h5, h6, p, label, .btn, a{
+ h3, h4, h5, h6, p, label, .btn, a{
 	font-family:Helvetica;
+}
+ h1{
+	font-family:Berkshire Swash;
+}
+ h2{
+	font-family:Lobster;
 }
 
 
 /* Site container width */
 
 .container{
-	max-width:1170px;
+	width:100%;
 }
 
 /* Blocs */
@@ -144,23 +149,6 @@ a{
 #nav-bloc,#about-bloc,#bloc-4,#bloc-6,#bloc-8,#bloc-10{
 	background-color:#ffffff;
 }
-#hero-bloc h1{
-	font-size: 50px;
-	font-family: 'Berkshire Swash';
-	text-shadow: rgba(0, 0, 0, 0.498039) 0px 2px 5px;
-}
-#skills-bloc h1{
-	font-family: Lobster;
-}
-#workex-bloc h1{
-	font-family: Lobster;
-}
-#portfolio-bloc h1{
-	font-family: Lobster;
-}
-#contact-bloc h1{
-	font-family: Lobster;
-}
 
 /* Bloc image backgrounds */
 
@@ -174,19 +162,19 @@ a{
 	background-image:url("img/background.png");
 }
 .bg-walkway{
-	background-image:url('img/walkway.jpg');
+	background-image:url("img/walkway.jpg");
 }
 .bg-path-overlay{
-	background-image:url('img/path-overlay.png');
+	background-image:url("img/path-overlay.png");
 }
 .bg-city-overlay{
-	background-image:url('img/city-overlay.png');
+	background-image:url("img/city-overlay.png");
 }
 .bg-map-overlay{
-	background-image:url('img/map-overlay.png');
+	background-image:url("img/map-overlay.png");
 }
 .bg-camera-overlay{
-	background-image:url('img/camera-overlay.png');
+	background-image:url("img/camera-overlay.png");
 }
 
 /* NavBar */
@@ -361,9 +349,6 @@ img.mg-lg{
 
 
 /* Icons */
-.icon-md{
-	font-size:30px!important;
-}
 .icon-lg{
 	font-size:60px!important;
 }
@@ -382,6 +367,24 @@ img.mg-lg{
 
 iframe{
 	border:0;
+}
+/* ScrollToTop button */
+
+.scrollToTop{
+	width:40px;
+	height:40px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	 opacity: 0;
+	z-index: 500;
+	transition: all .3s ease-in-out;
+}
+.scrollToTop icon{
+	margin-top: 6px;
+}
+.showScrollTop{
+	opacity: 1;
 }
 
 
