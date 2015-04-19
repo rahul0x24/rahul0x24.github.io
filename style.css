@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    
+/*	    Rahul Katariya | iOS and Mac Developer
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
 
@@ -13,7 +13,16 @@ body{
 a:hover{text-decoration: none; cursor:pointer;}
 
 
-   
+a{
+	color:#ffffff!important;
+}
+
+ a:hover{
+	color:#cccccc!important;
+	 text-decoration: none;
+	 cursor:pointer;
+}
+
 
 
 /* Globals type styling */
@@ -325,9 +334,6 @@ img.mg-lg{
 .btn-d,.btn-d:hover,.btn-d:focus{
 	color:#FFF!important;
 	background:rgba(0,0,0,.3);
-}
-.btn-sq{
-	border-radius: 0px;
 }
 .btn-wire{
 	background:transparent!important;
