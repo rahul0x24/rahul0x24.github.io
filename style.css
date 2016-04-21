@@ -160,32 +160,8 @@ a{
 
 /* Bloc image backgrounds */
 
-.bg-tracks{
-	background-image:url("img/tracks.jpg");
-}
-.bg-highway{
-	background-image:url("img/highway.jpg");
-}
 .bg-background{
-	background-image:url("img/background.png");
-}
-.bg-walkway{
-	background-image:url("img/walkway.jpg");
-}
-.bg-path-overlay{
-	background-image:url("img/path-overlay.png");
-}
-.bg-city-overlay{
-	background-image:url("img/city-overlay.png");
-}
-.bg-map-overlay{
-	background-image:url("img/map-overlay.png");
-}
-.bg-camera-overlay{
-	background-image:url("img/camera-overlay.png");
-}
-.bg-background{
-	background-image:url('img/background.png');
+	background-image:url("http://i.imgur.com/JGq8g8M.png");
 }
 
 /* NavBar */
