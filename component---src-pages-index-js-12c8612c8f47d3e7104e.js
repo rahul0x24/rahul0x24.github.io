@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{405:function(e,t,a){"use strict";a.r(t),a.d(t,"pageQuery",function(){return c});var n=a(0),r=a.n(n),i=a(125),u=a(178);t.default=function(e){var t=e.data.site.siteMetadata;return r.a.createElement(u.b,{title:"Resume",metadata:t,titleLinkHandler:function(){return Object(i.navigate)("/")}},r.a.createElement(u.c,{metadata:t}))};var c="1624437049"}}]);
+//# sourceMappingURL=component---src-pages-index-js-12c8612c8f47d3e7104e.js.map
