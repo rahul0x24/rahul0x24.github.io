@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunk_rk_rahulkatariya=self.webpackChunk_rk_rahulkatariya||[]).push([[678],{6558:function(a,e,t){t.r(e);var r=t(7294),l=t(4160),u=t(6884);e.default=a=>{let{data:{site:{siteMetadata:e}}}=a;return r.createElement(u.T3,{title:"Resume",metadata:e,titleLinkHandler:()=>(0,l.c4)("/")},r.createElement(u.LV,{metadata:e}))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-e9f8884eb261d7eb8d34.js.map
